@@ -39,6 +39,6 @@ export default function Forward({
 
 const styles = StyleSheet.create({
   container: {
-    transform: [{ rotate: "180deg" }],
+    transform: [{ scaleX: -1 }],
   },
 });
