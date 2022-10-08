@@ -9,6 +9,7 @@ import Chat from "./Chat";
 import Check from "./Check";
 import Cross from "./Cross";
 import Football from "./Football";
+import Forward from "./Forward";
 import Globe from "./Globe";
 import Hotel from "./Hotel";
 import Info from "./Info";
@@ -48,6 +49,7 @@ export default function Icon({ color, name, size, style }) {
       check: Check,
       cross: Cross,
       football: Football,
+      forward: Forward,
       globe: Globe,
       hotel: Hotel,
       info: Info,
@@ -99,6 +101,7 @@ Icon.propTypes = {
     "check",
     "cross",
     "football",
+    "forward",
     "globe",
     "hotel",
     "info",

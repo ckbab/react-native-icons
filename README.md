@@ -38,6 +38,7 @@ import Icon from "@ckbab/react-native-icons";
 - check
 - cross
 - football
+- forward
 - globe
 - hotel
 - info
