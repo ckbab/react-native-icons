@@ -45,7 +45,7 @@ import Icon from "@ckbab/react-native-icons";
 - lock
 - menu
 - more
-- notifications
+- notification
 - plus
 - pin
 - plane
