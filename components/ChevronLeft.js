@@ -1,7 +1,7 @@
 import React from "react";
 import { Path, Svg } from "react-native-svg";
 
-export default function Back({
+export default function ChevronLeft({
   background,
   color,
   innerBorder,

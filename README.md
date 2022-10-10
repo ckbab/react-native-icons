@@ -25,20 +25,22 @@ import Icon from "@ckbab/react-native-icons";
 | Name    | Type         | Default value |
 | ------- | ------------ | ------------- |
 | `color` | `string`     | `#cc00ff`     |
-| `name`  | `string`     | -             |
-| `size`  | `number`     | 16            |
-| `style` | `StyleSheet` | -             |
+| `name`  | `string`     | `""`          |
+| `size`  | `number`     | `16`          |
+| `style` | `StyleSheet` | `{}`          |
 
 ## Available icons
 
-- back
 - beer
 - calendar
 - chat
 - check
+- chevron-down
+- chevron-left
+- chevron-right
+- chevron-up
 - cross
 - football
-- forward
 - globe
 - hotel
 - info

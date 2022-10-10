@@ -2,14 +2,16 @@ import { changeColor } from "@ckbab/js-utils";
 import PropTypes from "prop-types";
 import React, { useMemo } from "react";
 
-import Back from "./Back";
 import Beer from "./Beer";
 import Calendar from "./Calendar";
 import Chat from "./Chat";
 import Check from "./Check";
+import ChevronDown from "./ChevronDown";
+import ChevronLeft from "./ChevronLeft";
+import ChevronRight from "./ChevronRight";
+import ChevronUp from "./ChevronUp";
 import Cross from "./Cross";
 import Football from "./Football";
-import Forward from "./Forward";
 import Globe from "./Globe";
 import Hotel from "./Hotel";
 import Info from "./Info";
@@ -42,14 +44,16 @@ export default function Icon({ color, name, size, style }) {
 
   const Component = useMemo(() => {
     const icons = {
-      back: Back,
       beer: Beer,
       calendar: Calendar,
       chat: Chat,
       check: Check,
+      "chevron-down": ChevronDown,
+      "chevron-left": ChevronLeft,
+      "chevron-right": ChevronRight,
+      "chevron-up": ChevronUp,
       cross: Cross,
       football: Football,
-      forward: Forward,
       globe: Globe,
       hotel: Hotel,
       info: Info,
@@ -94,14 +98,16 @@ export default function Icon({ color, name, size, style }) {
 Icon.propTypes = {
   color: PropTypes.string,
   name: PropTypes.oneOf([
-    "back",
     "beer",
     "calendar",
     "chat",
     "check",
+    "chevron-down",
+    "chevron-left",
+    "chevron-right",
+    "chevron-up",
     "cross",
     "football",
-    "forward",
     "globe",
     "hotel",
     "info",
