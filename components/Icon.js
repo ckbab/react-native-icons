@@ -10,6 +10,7 @@ import ChevronDown from "./ChevronDown";
 import ChevronLeft from "./ChevronLeft";
 import ChevronRight from "./ChevronRight";
 import ChevronUp from "./ChevronUp";
+import Cog from "./Cog";
 import Cross from "./Cross";
 import Football from "./Football";
 import Globe from "./Globe";
@@ -52,6 +53,7 @@ export default function Icon({ color, name, size, style }) {
       "chevron-left": ChevronLeft,
       "chevron-right": ChevronRight,
       "chevron-up": ChevronUp,
+      cog: Cog,
       cross: Cross,
       football: Football,
       globe: Globe,
@@ -106,6 +108,7 @@ Icon.propTypes = {
     "chevron-left",
     "chevron-right",
     "chevron-up",
+    "cog",
     "cross",
     "football",
     "globe",

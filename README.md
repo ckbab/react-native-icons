@@ -39,6 +39,7 @@ import Icon from "@ckbab/react-native-icons";
 - chevron-left
 - chevron-right
 - chevron-up
+- cog
 - cross
 - football
 - globe
