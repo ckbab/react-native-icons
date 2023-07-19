@@ -31,6 +31,10 @@ import Icon from "@ckbab/react-native-icons";
 
 ## Available icons
 
+- arrow-down
+- arrow-left
+- arrow-right
+- arrow-up
 - beer
 - calendar
 - chat
@@ -58,6 +62,8 @@ import Icon from "@ckbab/react-native-icons";
 - shoe
 - stadium
 - star
+- thumbs-down
+- thumbs-up
 - ticket
 - time
 - user
