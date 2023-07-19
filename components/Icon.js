@@ -2,6 +2,10 @@ import { changeColor } from "@ckbab/js-utils";
 import PropTypes from "prop-types";
 import React, { useMemo } from "react";
 
+import ArrowDown from "./ArrowDown";
+import ArrowLeft from "./ArrowLeft";
+import ArrowRight from "./ArrowRight";
+import ArrowUp from "./ArrowUp";
 import Beer from "./Beer";
 import Calendar from "./Calendar";
 import Chat from "./Chat";
@@ -45,6 +49,10 @@ export default function Icon({ color, name, size, style }) {
 
   const Component = useMemo(() => {
     const icons = {
+      "arrow-down": ArrowDown,
+      "arrow-left": ArrowLeft,
+      "arrow-right": ArrowRight,
+      "arrow-up": ArrowUp,
       beer: Beer,
       calendar: Calendar,
       chat: Chat,
@@ -100,6 +108,10 @@ export default function Icon({ color, name, size, style }) {
 Icon.propTypes = {
   color: PropTypes.string,
   name: PropTypes.oneOf([
+    "arrow-down",
+    "arrow-left",
+    "arrow-right",
+    "arrow-up",
     "beer",
     "calendar",
     "chat",
