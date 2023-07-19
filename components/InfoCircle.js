@@ -1,7 +1,7 @@
 import React from "react";
 import { Circle, Path, Svg } from "react-native-svg";
 
-export default function Info({
+export default function InfoCircle({
   background,
   color,
   innerBorder,

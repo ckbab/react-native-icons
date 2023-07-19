@@ -20,7 +20,7 @@ import Cross from "./Cross";
 import Football from "./Football";
 import Globe from "./Globe";
 import Hotel from "./Hotel";
-import Info from "./Info";
+import InfoCircle from "./InfoCircle";
 import Level from "./Level";
 import Lock from "./Lock";
 import Menu from "./Menu";
@@ -70,7 +70,7 @@ export default function Icon({ color, name, size, style }) {
       football: Football,
       globe: Globe,
       hotel: Hotel,
-      info: Info,
+      "info-circle": InfoCircle,
       level: Level,
       lock: Lock,
       menu: Menu,
@@ -132,7 +132,7 @@ Icon.propTypes = {
     "football",
     "globe",
     "hotel",
-    "info",
+    "info-circle",
     "level",
     "lock",
     "menu",

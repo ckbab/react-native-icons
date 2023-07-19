@@ -49,7 +49,7 @@ import Icon from "@ckbab/react-native-icons";
 - football
 - globe
 - hotel
-- info
+- info-circle
 - level
 - lock
 - menu
