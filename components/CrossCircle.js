@@ -1,7 +1,7 @@
 import React from "react";
 import { Circle, Path, Svg } from "react-native-svg";
 
-export default function Cross({
+export default function CrossCircle({
   background,
   color,
   innerBorder,

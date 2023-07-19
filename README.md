@@ -45,7 +45,7 @@ import Icon from "@ckbab/react-native-icons";
 - chevron-right
 - chevron-up
 - cog
-- cross
+- cross-circle
 - football
 - globe
 - hotel
