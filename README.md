@@ -39,6 +39,7 @@ import Icon from "@ckbab/react-native-icons";
 - calendar
 - chat
 - check
+- check-cicle
 - chevron-down
 - chevron-left
 - chevron-right

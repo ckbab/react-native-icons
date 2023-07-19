@@ -10,6 +10,7 @@ import Beer from "./Beer";
 import Calendar from "./Calendar";
 import Chat from "./Chat";
 import Check from "./Check";
+import CheckCircle from "./CheckCircle";
 import ChevronDown from "./ChevronDown";
 import ChevronLeft from "./ChevronLeft";
 import ChevronRight from "./ChevronRight";
@@ -59,6 +60,7 @@ export default function Icon({ color, name, size, style }) {
       calendar: Calendar,
       chat: Chat,
       check: Check,
+      "check-circle": CheckCircle,
       "chevron-down": ChevronDown,
       "chevron-left": ChevronLeft,
       "chevron-right": ChevronRight,
@@ -120,6 +122,7 @@ Icon.propTypes = {
     "calendar",
     "chat",
     "check",
+    "check-circle",
     "chevron-down",
     "chevron-left",
     "chevron-right",
