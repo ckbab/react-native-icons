@@ -39,7 +39,7 @@ import Icon from "@ckbab/react-native-icons";
 - calendar
 - chat
 - check
-- check-cicle
+- check-circle
 - chevron-down
 - chevron-left
 - chevron-right
@@ -56,9 +56,9 @@ import Icon from "@ckbab/react-native-icons";
 - menu
 - more
 - notification
-- plus
 - pin
 - plane
+- plus
 - pot
 - search
 - shoe
