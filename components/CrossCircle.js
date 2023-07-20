@@ -11,7 +11,7 @@ export default function CrossCircle({
 }) {
   return (
     <Svg height={size} style={style} viewBox="0 0 1 1" width={size}>
-      <G scale={1.5} translate={-0.25}>
+      <G scale={1.54} translate={-0.27}>
         <Circle cx="0.500004" cy="0.499996" fill={outerBorder} r="0.320744" />
         <Circle cx="0.5" cy="0.5" fill={innerBorder} r="0.294079" />
         <Circle cx="0.5" cy="0.5" fill={background} r="0.277412" />

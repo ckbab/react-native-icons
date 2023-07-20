@@ -12,7 +12,7 @@ export default function Globe({
 }) {
   return (
     <Svg height={size} style={style} viewBox="0 0 1 1" width={size}>
-      <G scale={1.46} translate={-0.23}>
+      <G scale={1.48} translate={-0.24}>
         <Circle cx="0.500004" cy="0.499996" fill={outerBorder} r="0.333329" />
         <Circle cx="0.5" cy="0.5" fill={innerBorder} r="0.305617" />
         <Circle cx="0.5" cy="0.5" fill={background} r="0.288297" />

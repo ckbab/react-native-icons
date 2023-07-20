@@ -29,7 +29,7 @@ export default function Football({
 
   return (
     <Svg height={size} style={style} viewBox="0 0 1 1" width={size}>
-      <G scale={1.28} translate={-0.14}>
+      <G scale={1.3} translate={-0.15}>
         <Defs>
           <ClipPath id="a">
             <Path d="M0.5 0.166665c0.184094,0 0.333335,0.14924 0.333335,0.333335 0,0.184094 -0.14924,0.333335 -0.333335,0.333335 -0.184094,0 -0.333335,-0.14924 -0.333335,-0.333335 0,-0.184094 0.14924,-0.333335 0.333335,-0.333335z" />

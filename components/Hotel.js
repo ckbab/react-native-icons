@@ -11,7 +11,7 @@ export default function Hotel({
 }) {
   return (
     <Svg height={size} style={style} viewBox="0 0 1 1" width={size}>
-      <G scale={1.14} translate={-0.07}>
+      <G scale={1.16} translate={-0.08}>
         <Path
           d="M 0.308594 0.257812 L 0.308594 0.148438 C 0.308594 0.109375 0.339844 0.0742188 0.382812 0.0742188 L 0.617188 0.0742188 C 0.660156 0.0742188 0.691406 0.109375 0.691406 0.148438 L 0.691406 0.257812 Z M 0.308594 0.257812 "
           fill={outerBorder}

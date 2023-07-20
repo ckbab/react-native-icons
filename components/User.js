@@ -11,7 +11,7 @@ export default function User({
 }) {
   return (
     <Svg height={size} style={style} viewBox="0 0 1 1" width={size}>
-      <G scale={1.4} transform="translate(0.06, 0)" translate={-0.2}>
+      <G scale={1.42} transform="translate(0.06, 0)" translate={-0.21}>
         <Path
           d="M0.237882 0.846815c-0.0641693,0 -0.116531,-0.0523622 -0.116531,-0.116528l0 -0.0286417c0,-0.156937 0.128264,-0.285197 0.285197,-0.285197l0.070811 0c0.156933,0 0.285197,0.12826 0.285197,0.285197l0 0.0286417c0,0.0641654 -0.0523622,0.116528 -0.116531,0.116528l-0.408142 0z"
           fill={outerBorder}

@@ -11,7 +11,7 @@ export default function Stadium({
 }) {
   return (
     <Svg height={size} style={style} viewBox="0 0 1 1" width={size}>
-      <G scale={1.16} translate={-0.08}>
+      <G scale={1.18} translate={-0.09}>
         <Path
           d="M 0.0820312 0.523438 L 0.917969 0.523438 L 0.921875 0.5625 C 0.925781 0.671875 0.828125 0.773438 0.734375 0.839844 L 0.722656 0.847656 L 0.277344 0.847656 L 0.265625 0.839844 C 0.171875 0.773438 0.0742188 0.671875 0.078125 0.5625 Z M 0.0820312 0.523438 "
           fill={outerBorder}
