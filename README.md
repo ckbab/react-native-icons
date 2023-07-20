@@ -49,6 +49,8 @@ import Icon from "@ckbab/react-native-icons";
 - cog
 - cross
 - cross-circle
+- email
+- fist-bump
 - football
 - globe
 - hotel
@@ -58,6 +60,7 @@ import Icon from "@ckbab/react-native-icons";
 - menu
 - more
 - notification
+- phone
 - pin
 - plane
 - plus

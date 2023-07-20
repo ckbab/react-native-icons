@@ -20,6 +20,8 @@ import ChevronUp from "./ChevronUp";
 import Cog from "./Cog";
 import Cross from "./Cross";
 import CrossCircle from "./CrossCircle";
+import Email from "./Email";
+import FistBump from "./FistBump";
 import Football from "./Football";
 import Globe from "./Globe";
 import Hotel from "./Hotel";
@@ -29,6 +31,7 @@ import Lock from "./Lock";
 import Menu from "./Menu";
 import More from "./More";
 import Notification from "./Notification";
+import Phone from "./Phone";
 import Pin from "./Pin";
 import Plane from "./Plane";
 import Plus from "./Plus";
@@ -75,6 +78,8 @@ export default function Icon({ color, name, size, style }) {
       cog: Cog,
       cross: Cross,
       "cross-circle": CrossCircle,
+      email: Email,
+      "fist-bump": FistBump,
       football: Football,
       globe: Globe,
       hotel: Hotel,
@@ -84,6 +89,7 @@ export default function Icon({ color, name, size, style }) {
       menu: Menu,
       more: More,
       notification: Notification,
+      phone: Phone,
       pin: Pin,
       plane: Plane,
       plus: Plus,
@@ -142,6 +148,8 @@ Icon.propTypes = {
     "cog",
     "cross",
     "cross-circle",
+    "email",
+    "fist-bump",
     "football",
     "globe",
     "hotel",
@@ -151,6 +159,7 @@ Icon.propTypes = {
     "menu",
     "more",
     "notification",
+    "phone",
     "plus",
     "pin",
     "plane",
