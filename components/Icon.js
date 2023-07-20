@@ -26,7 +26,6 @@ import Football from "./Football";
 import Globe from "./Globe";
 import Hotel from "./Hotel";
 import InfoCircle from "./InfoCircle";
-import Level from "./Level";
 import Lock from "./Lock";
 import Menu from "./Menu";
 import More from "./More";
@@ -36,6 +35,7 @@ import Pin from "./Pin";
 import Plane from "./Plane";
 import Plus from "./Plus";
 import Pot from "./Pot";
+import Progress from "./Progress";
 import Search from "./Search";
 import Shoe from "./Shoe";
 import Stadium from "./Stadium";
@@ -84,7 +84,6 @@ export default function Icon({ color, name, size, style }) {
       globe: Globe,
       hotel: Hotel,
       "info-circle": InfoCircle,
-      level: Level,
       lock: Lock,
       menu: Menu,
       more: More,
@@ -94,6 +93,7 @@ export default function Icon({ color, name, size, style }) {
       plane: Plane,
       plus: Plus,
       pot: Pot,
+      progress: Progress,
       search: Search,
       shoe: Shoe,
       stadium: Stadium,
@@ -154,7 +154,6 @@ Icon.propTypes = {
     "globe",
     "hotel",
     "info-circle",
-    "level",
     "lock",
     "menu",
     "more",
@@ -164,6 +163,7 @@ Icon.propTypes = {
     "pin",
     "plane",
     "pot",
+    "progress",
     "search",
     "shoe",
     "stadium",

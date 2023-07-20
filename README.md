@@ -55,7 +55,6 @@ import Icon from "@ckbab/react-native-icons";
 - globe
 - hotel
 - info-circle
-- level
 - lock
 - menu
 - more
@@ -65,6 +64,7 @@ import Icon from "@ckbab/react-native-icons";
 - plane
 - plus
 - pot
+- progress
 - search
 - shoe
 - stadium
