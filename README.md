@@ -36,6 +36,7 @@ import Icon from "@ckbab/react-native-icons";
 - arrow-right
 - arrow-up
 - beer
+- bus
 - calendar
 - cards
 - chat

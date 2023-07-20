@@ -7,6 +7,7 @@ import ArrowLeft from "./ArrowLeft";
 import ArrowRight from "./ArrowRight";
 import ArrowUp from "./ArrowUp";
 import Beer from "./Beer";
+import Bus from "./Bus";
 import Calendar from "./Calendar";
 import Cards from "./Cards";
 import Chat from "./Chat";
@@ -61,6 +62,7 @@ export default function Icon({ color, name, size, style }) {
       "arrow-right": ArrowRight,
       "arrow-up": ArrowUp,
       beer: Beer,
+      bus: Bus,
       calendar: Calendar,
       cards: Cards,
       chat: Chat,
@@ -127,6 +129,7 @@ Icon.propTypes = {
     "arrow-right",
     "arrow-up",
     "beer",
+    "bus",
     "calendar",
     "cards",
     "chat",
