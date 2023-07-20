@@ -71,3 +71,4 @@ import Icon from "@ckbab/react-native-icons";
 - user
 - user-plus
 - walking
+- zigma

@@ -42,6 +42,7 @@ import Time from "./Time";
 import User from "./User";
 import UserPlus from "./UserPlus";
 import Walking from "./Walking";
+import Zigma from "./Zigma";
 
 export default function Icon({ color, name, size, style }) {
   const colors = useMemo(() => {
@@ -93,6 +94,7 @@ export default function Icon({ color, name, size, style }) {
       user: User,
       "user-plus": UserPlus,
       walking: Walking,
+      zigma: Zigma,
     };
     return icons[name];
   }, [name]);
@@ -156,6 +158,7 @@ Icon.propTypes = {
     "user",
     "user-plus",
     "walking",
+    "zigma",
   ]),
   size: PropTypes.number,
   style: PropTypes.any,
