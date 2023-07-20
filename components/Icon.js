@@ -8,6 +8,7 @@ import ArrowRight from "./ArrowRight";
 import ArrowUp from "./ArrowUp";
 import Beer from "./Beer";
 import Calendar from "./Calendar";
+import Cards from "./Cards";
 import Chat from "./Chat";
 import Check from "./Check";
 import CheckCircle from "./CheckCircle";
@@ -60,6 +61,7 @@ export default function Icon({ color, name, size, style }) {
       "arrow-up": ArrowUp,
       beer: Beer,
       calendar: Calendar,
+      cards: Cards,
       chat: Chat,
       check: Check,
       "check-circle": CheckCircle,
@@ -124,6 +126,7 @@ Icon.propTypes = {
     "arrow-up",
     "beer",
     "calendar",
+    "cards",
     "chat",
     "check",
     "check-circle",
