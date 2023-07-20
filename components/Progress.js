@@ -2,7 +2,7 @@ import { changeColor } from "@ckbab/js-utils";
 import React from "react";
 import { G, Path, Svg } from "react-native-svg";
 
-export default function Level({
+export default function Progress({
   background,
   color,
   innerBorder,
