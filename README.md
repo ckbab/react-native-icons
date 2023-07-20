@@ -65,6 +65,7 @@ import Icon from "@ckbab/react-native-icons";
 - shoe
 - stadium
 - star
+- stats
 - thumbs-down
 - thumbs-up
 - ticket

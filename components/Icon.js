@@ -36,6 +36,7 @@ import Search from "./Search";
 import Shoe from "./Shoe";
 import Stadium from "./Stadium";
 import Star from "./Star";
+import Stats from "./Stats";
 import ThumbsDown from "./ThumbsDown";
 import ThumbsUp from "./ThumbsUp";
 import Ticket from "./Ticket";
@@ -89,6 +90,7 @@ export default function Icon({ color, name, size, style }) {
       shoe: Shoe,
       stadium: Stadium,
       star: Star,
+      stats: Stats,
       "thumbs-down": ThumbsDown,
       "thumbs-up": ThumbsUp,
       ticket: Ticket,
@@ -154,6 +156,7 @@ Icon.propTypes = {
     "shoe",
     "stadium",
     "star",
+    "stats",
     "thumbs-down",
     "thumbs-up",
     "ticket",
