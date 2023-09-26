@@ -20,14 +20,29 @@ import Icon from "@ckbab/react-native-icons";
 <Icon code="beer" color="#009900" size={48} />
 ```
 
+You can also define default icon props using the `IconProvider`:
+
+```js
+import { IconProvider } from "@ckbab/react-native-icons";
+
+<IconProvider borderColor="#000" color="#ffcc00" size={24}>
+  /* Rest of your code */
+</IconProvider>;
+```
+
+As shown above you can pass `borderColor`, `color` and `size` as default props.
+
 ## Properties
 
-| Name    | Type         | Default value |
-| ------- | ------------ | ------------- |
-| `color` | `string`     | `#cc00ff`     |
-| `name`  | `string`     | `""`          |
-| `size`  | `number`     | `16`          |
-| `style` | `StyleSheet` | `{}`          |
+| Name          | Type         | Default value |
+| ------------- | ------------ | ------------- |
+| `borderColor` | `string`     | `""`          |
+| `color`       | `string`     | `#cc00ff`     |
+| `name`        | `string`     | `""`          |
+| `size`        | `number`     | `16`          |
+| `style`       | `StyleSheet` | `{}`          |
+
+If `borderColor` is not explicitly defined the border color will be based on the `color` prop.
 
 ## Available icons
 
@@ -74,6 +89,7 @@ import Icon from "@ckbab/react-native-icons";
 - thumbs-up
 - ticket
 - time
+- unlock
 - user
 - user-plus
 - walking

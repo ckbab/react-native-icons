@@ -25,6 +25,7 @@ import FistBump from "./FistBump";
 import Football from "./Football";
 import Globe from "./Globe";
 import Hotel from "./Hotel";
+import { useIconContext } from "./IconContext";
 import InfoCircle from "./InfoCircle";
 import Lock from "./Lock";
 import Menu from "./Menu";
@@ -51,13 +52,17 @@ import UserPlus from "./UserPlus";
 import Walking from "./Walking";
 import Zigma from "./Zigma";
 
-export default function Icon({ color, name, size, style }) {
+export default function Icon({ borderColor, color: c, name, size, style }) {
+  const context = useIconContext();
+
   const colors = useMemo(() => {
     const innerBorder = "#eee";
-    const outerBorder = changeColor(color, "#000", 0.6);
-    const background = changeColor(color, "#000", 0.8);
-    return { background, innerBorder, outerBorder };
-  }, [color]);
+    const outerBorder =
+      borderColor || context?.borderColor || changeColor(c, "#000", 0.6);
+    const background = changeColor(c, "#000", 0.8);
+    const color = c || context?.color || "#cc00ff";
+    return { background, color, innerBorder, outerBorder };
+  }, [borderColor, c, context]);
 
   const Component = useMemo(() => {
     const icons = {
@@ -120,10 +125,10 @@ export default function Icon({ color, name, size, style }) {
   return (
     <Component
       background={colors?.background}
-      color={color}
+      color={colors?.color}
       innerBorder={colors?.innerBorder}
       outerBorder={colors?.outerBorder}
-      size={size}
+      size={size || context?.size || 16}
       style={style}
     />
   );
@@ -183,11 +188,4 @@ Icon.propTypes = {
   ]),
   size: PropTypes.number,
   style: PropTypes.any,
-};
-
-Icon.defaultProps = {
-  color: "#cc00ff",
-  name: "",
-  size: 16,
-  style: {},
 };
