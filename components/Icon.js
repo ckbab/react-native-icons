@@ -45,6 +45,7 @@ import ThumbsDown from "./ThumbsDown";
 import ThumbsUp from "./ThumbsUp";
 import Ticket from "./Ticket";
 import Time from "./Time";
+import Unlock from "./Unlock";
 import User from "./User";
 import UserPlus from "./UserPlus";
 import Walking from "./Walking";
@@ -103,6 +104,7 @@ export default function Icon({ color, name, size, style }) {
       "thumbs-up": ThumbsUp,
       ticket: Ticket,
       time: Time,
+      unlock: Unlock,
       user: User,
       "user-plus": UserPlus,
       walking: Walking,
@@ -173,6 +175,7 @@ Icon.propTypes = {
     "thumbs-up",
     "ticket",
     "time",
+    "unlock",
     "user",
     "user-plus",
     "walking",
