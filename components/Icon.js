@@ -57,10 +57,10 @@ export default function Icon({ borderColor, color: c, name, size, style }) {
 
   const colors = useMemo(() => {
     const innerBorder = "#eee";
-    const outerBorder =
-      borderColor || context?.borderColor || changeColor(c, "#000", 0.6);
-    const background = changeColor(c, "#000", 0.8);
     const color = c || context?.color || "#cc00ff";
+    const outerBorder =
+      borderColor || context?.borderColor || changeColor(color, "#000", 0.6);
+    const background = changeColor(c, "#000", 0.8);
     return { background, color, innerBorder, outerBorder };
   }, [borderColor, c, context]);
 
