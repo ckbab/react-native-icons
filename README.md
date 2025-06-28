@@ -62,6 +62,7 @@ If `borderColor` is not explicitly defined the border color will be based on the
 - chevron-right
 - chevron-up
 - cog
+- coin
 - cross
 - cross-circle
 - email

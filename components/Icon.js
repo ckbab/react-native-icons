@@ -18,6 +18,7 @@ import ChevronLeft from "./ChevronLeft";
 import ChevronRight from "./ChevronRight";
 import ChevronUp from "./ChevronUp";
 import Cog from "./Cog";
+import Coin from "./Coin";
 import Cross from "./Cross";
 import CrossCircle from "./CrossCircle";
 import Email from "./Email";
@@ -82,6 +83,7 @@ export default function Icon({ borderColor, color: c, name, size, style }) {
       "chevron-right": ChevronRight,
       "chevron-up": ChevronUp,
       cog: Cog,
+      coin: Coin,
       cross: Cross,
       "cross-circle": CrossCircle,
       email: Email,
@@ -153,6 +155,7 @@ Icon.propTypes = {
     "chevron-right",
     "chevron-up",
     "cog",
+    "coin",
     "cross",
     "cross-circle",
     "email",
